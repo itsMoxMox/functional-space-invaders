@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="./dist/spaceinvaders.js"></script>
+    </head>
+    <body>
+        <h1>Space Invaders</h1>
+        <svg id="canvas" width="600" height="600">
+            <g id="ship" transform="translate(279,500)">
+                <polygon points="0,12 3,12 3,9 15,9 15,3 18,3 18,0 21,0 21,3 24,3 24,9 36,9 36,12 39,12 39,24 0,24"
+                            style="fill:rgb(69, 190, 69)">
+                </polygon>
+            </g>
+        </svg>
+    </body>
+</html>
